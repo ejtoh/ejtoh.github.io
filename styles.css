@@ -240,13 +240,13 @@ nav {
     background-color: #ffffff;
     height: 1.5em;
     text-align: center;
-    vertical-align: middle;
     width:100%;
-    line-height:0.5em;
+    line-height:1.5em;
+    display: block; 
+    margin: auto;
   }
   #footer-bottom > p{
     font-size: 0.5em;
-    margin: 2em 0em 4em 0em;
   }
   .clearfloat{
     clear:both;
@@ -300,3 +300,5 @@ nav {
     color:#486D72;
     font-weight: 700;
   }
+
+  
