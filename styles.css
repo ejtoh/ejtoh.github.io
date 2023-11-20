@@ -52,7 +52,7 @@ nav {
     color: #343434;
   }
   h2> img{
-    width:4em;
+    width:2.5em;
     vertical-align:middle;
     
   }
@@ -90,11 +90,12 @@ nav {
   
   .project {
     display: inline-block;
-    width: 45%;
+    width: 29%;
     margin: 2em 1em;
-    text-align: left;
+    text-align: center;
     
   }
+  
   
   .project img {
     width: 100%;
@@ -129,7 +130,7 @@ nav {
   }
   #contact-box{
     position: relative;
-    width: 18%;
+    width: 25%;
     left: 13em;
     top: 12.5%;
     background-color: rgba(255, 255, 255, 0.6);
@@ -154,10 +155,12 @@ nav {
     top: 20%;
   }
   #contact-end{
-    bottom: 27%;
-    width: 30%;
+    width: 40%;
     float:right;
     position: relative;
+    right: 2.5em;
+    top: 13.5%;
+    padding-bottom: 0.5em;
   }
   #contact-middle > img{
     vertical-align:middle;
@@ -277,8 +280,16 @@ nav {
     font-size: 14px;
     resize: none;
   }
-
-
+  .subhead{
+    position: relative;
+    float:left;
+    top: 0.3em;
+    margin-bottom: 0.35em;
+    margin-right: 0.2em;
+    font-size: 6em;
+    font-weight: 600;
+    color: #486D72;
+}
   em{
     color:#486D72;
     font-size: 14px;
